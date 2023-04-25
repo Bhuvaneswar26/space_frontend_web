@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header nav {
+    display: flex;
+    height: 15vh;
+    justify-content: space-between;
+    margin-left: 5%;
+}
+
+body {
+    background-image: url(/starter-code/assets/technology/background-technology-desktop.jpg);
+    background-size: cover;
+}
+
+header nav img {
+    height: 40px;
+    width: 40px;
+    margin-top: 6vh;
+}
+
+header nav ul {
+    background: rgb(140, 171, 195);
+    background: linear-gradient(90deg, rgba(18, 18, 119, 0.174) 25%, rgba(9, 46, 116, 0.715) 50%, rgba(11, 12, 90, 0.708) 75%);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 60vw;
+    margin-top: 2vw;
+    padding-right: 4vw;
+    padding-top: 4vh;
+    padding-bottom: 3vh;
+    justify-content: space-around;
+    border-radius: 5px;
+}
+
+header nav>ul>li {
+    list-style: none;
+    padding-bottom: 3.8vh;
+}
+
+header nav>ul>li>a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-weight: 0;
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+header nav>ul>li>a>span {
+    font-weight: 900;
+}
+
+.underline {
+    border-bottom: 4px solid whitesmoke;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+
+}
+
+section>p {
+    color: white;
+    margin-top: 7vh;
+    margin-left: 10vw;
+    font-size: 1.5rem;
+    font-family: 'Source Code Pro', monospace;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+}
+
+#color-change {
+    color: rgba(255, 255, 255, 0.427);
+}
+
+.main-hero {
+    display: flex;
+    margin-top: 5vh;
+    margin-left: 8vw;
+    margin-right: 5vh;
+    justify-content: space-between;
+    margin-bottom: 6rem;
+}
+
+.main-hero>ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 8rem;
+}
+
+.main-hero>ul>li {
+    list-style: none;
+    height: 60px;
+    width: 60px;
+    background-color: rgba(0, 0, 0, 0.767);
+    border-radius: 40px;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.main-hero>ul>li>a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: rgb(255, 254, 254);
+    font-weight: 300;
+}
+
+.main-hero-mid {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8rem;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    gap: 4rem;
+}
+
+.main-hero-mid>p {
+    font-family: 'Source Code Pro', monospace;
+}
+
+.main-hero-mid-p1 {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.532);
+}
+
+.main-hero-mid-p2 {
+    color: white;
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+
+.main-hero-mid-p3 {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.532);
+    line-height: 1.5rem;
+
+}
+
+.main-hero img {
+    margin-top: 8rem;
+    height: 400px;
+}
+
+.main-hero>ul>.number-click {
+    background-color: white;
+}
+
+.main-hero>ul>.number-click>a {
+    color: rgb(5, 5, 5);
+}

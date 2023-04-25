@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header nav {
+    display: flex;
+    height: 15vh;
+    justify-content: space-between;
+    margin-left: 5%;
+}
+
+body {
+    background-image: url(/starter-code/assets/crew/background-crew-desktop.jpg);
+    background-size: cover;
+}
+
+header nav img {
+    height: 40px;
+    width: 40px;
+    margin-top: 6vh;
+}
+
+header nav ul {
+    background: rgb(140, 171, 195);
+    background: linear-gradient(90deg, rgba(18, 18, 119, 0.174) 25%, rgba(9, 46, 116, 0.715) 50%, rgba(11, 12, 90, 0.708) 75%);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 60vw;
+    margin-top: 2vw;
+    padding-right: 4vw;
+    padding-top: 4vh;
+    padding-bottom: 3vh;
+    justify-content: space-around;
+    border-radius: 5px;
+}
+
+header nav>ul>li {
+    list-style: none;
+    padding-bottom: 3.8vh;
+}
+
+header nav>ul>li>a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-weight: 0;
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+header nav>ul>li>a>span {
+    font-weight: 900;
+}
+
+.underline {
+    border-bottom: 4px solid whitesmoke;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+
+}
+
+section>p {
+    color: white;
+    margin-top: 7vh;
+    margin-left: 10vw;
+    font-size: 1.5rem;
+    font-family: 'Source Code Pro', monospace;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+}
+
+#color-change {
+    color: rgba(255, 255, 255, 0.427);
+}
+
+.main-hero {
+    display: flex;
+    margin-top: 5vh;
+    margin-left: 10vw;
+    margin-right: 8vw;
+    gap: 15vw;
+}
+
+.main-hero-left {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    gap: 5vh;
+}
+
+#main-hero-left-p1 {
+    font-family: 'Source Code Pro', monospace;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    color: rgba(255, 255, 255, 0.558);
+}
+
+#main-hero-left-p2 {
+    font-family: 'Source Code Pro', monospace;
+    text-transform: uppercase;
+    font-size: 4rem;
+    color: white;
+    font-weight: 100;
+}
+
+#main-hero-left-p3 {
+
+    font-size: 1.2rem;
+    font-family: monospace;
+    line-height: 1.8rem;
+    word-spacing: 1px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.47);
+}
+
+.dots {
+    display: flex;
+    flex-direction: row;
+    color: rgba(255, 247, 247, 0.497);
+    margin-left: 0;
+    margin-right: 20vw;
+    margin-top: 5vh;
+    justify-content: space-between;
+
+}
+
+.dots i {
+    border-radius: 2rem;
+}
+
+#dot {
+    color: white;
+}
